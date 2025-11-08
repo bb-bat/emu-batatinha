@@ -1,0 +1,125 @@
+01:58:22.792 [main] ERROR com.eu.habbo.habbohotel.items.ItemManager - Failed to load Item (56561623)
+01:58:22.797 [main] ERROR com.eu.habbo.habbohotel.items.ItemManager - Caught exception
+java.lang.NumberFormatException: For input string: "1094.1089.1088.1073"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.valueOf(Integer.java:989)
+	at com.eu.habbo.habbohotel.items.Item.load(Item.java:106)
+	at com.eu.habbo.habbohotel.items.Item.<init>(Item.java:44)
+	at com.eu.habbo.habbohotel.items.ItemManager.loadItems(ItemManager.java:391)
+	at com.eu.habbo.habbohotel.items.ItemManager.load(ItemManager.java:101)
+	at com.eu.habbo.habbohotel.GameEnvironment.load(GameEnvironment.java:67)
+	at com.eu.habbo.Emulator.main(Emulator.java:150)
+01:58:24.791 [main] ERROR com.eu.habbo.util.imager.badges.BadgeImager - BadgeImager output folder: /var/www/atomcms/public/badgeparts
+ does not exist!
+02:04:51.702 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:04:51.703 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:10:41.395 [HabExec-1-7] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:10:41.395 [HabExec-1-7] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:15:01.266 [GameWorker-4-4] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Plaintext received instead of ssl, closing channel
+02:41:17.604 [main] ERROR com.eu.habbo.habbohotel.items.ItemManager - Failed to load Item (56561623)
+02:41:17.665 [main] ERROR com.eu.habbo.habbohotel.items.ItemManager - Caught exception
+java.lang.NumberFormatException: For input string: "1094.1089.1088.1073"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.valueOf(Integer.java:989)
+	at com.eu.habbo.habbohotel.items.Item.load(Item.java:106)
+	at com.eu.habbo.habbohotel.items.Item.<init>(Item.java:44)
+	at com.eu.habbo.habbohotel.items.ItemManager.loadItems(ItemManager.java:391)
+	at com.eu.habbo.habbohotel.items.ItemManager.load(ItemManager.java:101)
+	at com.eu.habbo.habbohotel.GameEnvironment.load(GameEnvironment.java:67)
+	at com.eu.habbo.Emulator.main(Emulator.java:150)
+02:41:19.598 [main] ERROR com.eu.habbo.util.imager.badges.BadgeImager - BadgeImager output folder: /var/www/atomcms/public/badgeparts
+ does not exist!
+02:45:09.420 [HabExec-1-3] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:45:09.421 [HabExec-1-3] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:54:55.576 [HabExec-1-6] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:54:55.577 [HabExec-1-6] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:56:16.990 [HabExec-1-2] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:56:16.991 [HabExec-1-2] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:57:32.551 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+02:57:32.552 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:09:53.544 [HabExec-1-1] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:09:53.544 [HabExec-1-1] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:11:20.920 [GameWorker-4-5] ERROR com.eu.habbo.networking.gameserver.decoders.GameMessageHandler - Disconnecting client, exception in GameMessageHandler.
+java.lang.ClassCastException: class io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest cannot be cast to class com.eu.habbo.messages.ClientMessage (io.netty.handler.codec.http.HttpObjectAggregator$AggregatedFullHttpRequest and com.eu.habbo.messages.ClientMessage are in unnamed module of loader 'app')
+	at com.eu.habbo.networking.gameserver.decoders.GameMessageHandler.channelRead(GameMessageHandler.java:42)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at com.eu.habbo.networking.gameserver.handlers.IdleTimeoutHandler.channelRead(IdleTimeoutHandler.java:106)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:82)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler.channelRead(WebSocketServerProtocolHandshakeHandler.java:65)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at org.krews.plugin.nitro.websockets.handlers.CustomHTTPHandler.channelRead(CustomHTTPHandler.java:26)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+03:31:35.162 [HabExec-1-1] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:31:35.163 [HabExec-1-1] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:35:40.837 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
+03:35:40.838 [HabExec-1-8] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found encryption.forced
